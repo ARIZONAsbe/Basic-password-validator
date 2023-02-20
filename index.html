@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Password validator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f097d1909e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <label for="password" class="main-info"
+      >Check if your password is safe!</label
+    >
+    <input type="text" id="password" placeholder="Enter your password..." />
+    <p class="passinfo">You haven't entered your password...</p>
+    <br /><br />
+    <h3 style="text-transform: uppercase; margin-bottom: 8px">
+      Password must contain:
+    </h3>
+    <ul>
+      <li>min. of 10 characters</li>
+      <li>letters</li>
+      <li>numbers</li>
+    </ul>
+    <br />
+    <p>
+      If you want your password to be very strong, please add
+      <span style="font-weight: bold; color: tomato">special characters</span>.
+    </p>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
